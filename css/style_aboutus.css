@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #ffaf02;
+}
+
+header img{
+	width: 12%;
+	height: 12%;
+}
+
+.logo{
+	position: absolute;
+	margin: 1%;
+}
+
+header p{
+	font-family: Segoe Script;
+	font-size: 90px;
+	margin-left: 12%;
+}
+
+.home_link a{
+	text-decoration: none;
+}
+
+.home_link a img{
+	float: right;
+	width: 3.8%;
+	height: 3.8%;
+	margin-right: 3%
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #fcda91;
+}
+
+.navigation ul{
+	font-family: MV Boli;
+	padding-top: 1%;
+	padding-right: 1%;
+}
+
+ul li{
+	float: right;
+	background-color: #5af4ef;
+	font-size: 15px;
+	display: block;
+	border: 2px solid black;
+	margin-left: -30px
+}
+
+ul li a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	display: block;
+	padding: 10px;
+	width: 100px;
+}
+
+ul li, ul li a{
+	border-radius: 70px / 30px;
+}
+
+ul li a:hover{
+		background-color: #ff1e1e;
+		display: block;
+}
+
+.about{
+	margin-top: 6%;
+	margin-left: 1%;
+}
+
+.about p{
+	font-size: 20px;
+	font-family: garamond;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+}
+
+.about img{
+	margin-left: 6%;
+	margin-top: 3%;
+	width: 40%;
+	height: 30%;
+}
+
+.mis_vis{
+	margin-top: 5%;
+}
+
+.mis_vis p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	margin-top: 5%;
+	bottom: 10px;
+	text-align: center;
+}
+
+footer hr{
+	width: 90%;
+	padding: 1px;
+	background-color: black;
+	margin: auto;
+}
+
+footer p{
+	font-size: 15px;
+	margin-top: 1%;
+}
+
+footer img{
+	width: 20px;
+	height: 20px;
+	padding-right: 5px;
+}
+
+footer a{
+	text-decoration: none;
+}

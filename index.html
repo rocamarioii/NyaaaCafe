@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Nyaaa Cafe - Main Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style_mainpage.css">
+	<script type="text/javascript">
+    	setTimeout(function(){ alert("WELCOME to the ANIME Cafe"); }, 500); /*javascript for welcoming dialog*/
+    </script>
+</head>
+
+<header>
+	<div class="logo">
+		<img src="image/root_logo.png">
+	</div>
+	<p>Nyaaa  Cafe</p>
+</header>
+
+<body>
+	<div class="navigation">
+		<ul>
+			<li>
+				<a href="root_a_aboutus.html">&nbsp;&nbsp;About Us</a>
+			</li>
+			<li>
+				<a href="root_a_contact.html">&nbsp;&nbsp;Contact Us</a>
+			</li>
+			<li>
+				<a href="root_a_service.html">&nbsp;&nbsp;Services</a>
+			</li>
+			<li>
+				<a href="root_a_menu.html">Menu</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="side">
+		<p class="title">PROMO
+			<br>of the week</p>
+		<hr>
+		<br>
+		<div class="opt1">
+			<img src="image/root_side_img1.jpg">
+			<div>
+				<p>For every 2 coffee or other beverages,
+					<br>Get 1 free dessert</p>
+			</div>
+		</div>
+
+		<div class="opt2">
+			<img src="image/root_side_img2.jpg">
+			<div>
+				<p>Barkada promo
+					<br>For group of 8 and above,
+					<br>Get whole cake</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="slide">
+		<div class="slides">
+		
+			<input type="radio" name="radio" id="radio1">
+			<input type="radio" name="radio" id="radio2">
+			<input type="radio" name="radio" id="radio3">
+					
+			<div class="slide_img first">
+				<img src="image/root_slide1.jpg">
+			</div>
+			<div class="slide_img">
+				<img src="image/root_slide2.jpg">
+			</div>
+			<div class="slide_img">
+				<img src="image/root_slide3.jpg">
+			</div>
+		</div>
+	</div>
+
+	<div class="avail">
+		<p>NEW Available</p>
+	</div>
+
+	<div class="best_sell1">
+		<p>COFFEE</p>
+	
+		<div class="sell1">		
+			<input type="radio" name="rad" id="coffee1">
+			<input type="radio" name="rad" id="coffee2">
+			<input type="radio" name="rad" id="coffee3">
+					
+			<div class="coffee one">
+				<img src="image/root_coffee1.jpg">
+			</div>
+			<div class="coffee">
+				<img src="image/root_coffee2.jpg">
+			</div>
+			<div class="coffee">
+				<img src="image/root_coffee3.jpg">
+			</div>
+
+			<div class="manual_navigation">
+				<label for="coffee1" class="manual_btn"></label>
+				<label for="coffee2" class="manual_btn"></label>
+				<label for="coffee3" class="manual_btn"></label>
+			</div>
+		</div>
+	</div>
+
+	<div class="best_sell2">
+		<p>DESSERT</p>
+		
+		<div class="sell2">	
+			<input type="radio" name="rad" id="dessert1">
+			<input type="radio" name="rad" id="dessert2">
+			<input type="radio" name="rad" id="dessert3">
+					
+			<div class="dessert one">
+				<img src="image/root_dessert1.jpg">
+			</div>
+			<div class="dessert">
+				<img src="image/root_dessert2.jpg">
+			</div>
+			<div class="dessert">
+				<img src="image/root_dessert3.jpg">
+			</div>
+
+			<div class="manual_navigation">
+				<label for="dessert1" class="manual_btn"></label>
+				<label for="dessert2" class="manual_btn"></label>
+				<label for="dessert3" class="manual_btn"></label>
+			</div>
+		</div>
+	</div>
+
+	<div class="best_sell3">
+		<p>BEVERAGE</p>
+		
+		<div class="sell3">
+			<input type="radio" name="rad" id="beverage1">
+			<input type="radio" name="rad" id="beverage2">
+			<input type="radio" name="rad" id="beverage3">
+					
+			<div class="beverage one">
+				<img src="image/root_beverage1.jpg">
+			</div>
+			<div class="beverage">
+				<img src="image/root_beverage2.jpg">
+			</div>
+			<div class="beverage">
+				<img src="image/root_beverage3.jpg">
+			</div>
+
+			<div class="manual_navigation">
+				<label for="beverage1" class="manual_btn"></label>
+				<label for="beverage2" class="manual_btn"></label>
+				<label for="beverage3" class="manual_btn"></label>
+			</div>
+		</div>
+	</div>
+</body>
+
+<footer>
+	<hr>
+	<div>
+		<p>&copy <script> document.write(new Date().getFullYear())</script> Nyaaa Cafe
+			<br>All Rights Reserved.</p>
+	</div>
+	<div>
+		<p>Follow us on &nbsp;&nbsp;&nbsp;
+			<a href="www.facebook.com" target="blank">
+				<img src="image/root_footer1.png">
+			</a>
+			<a href="www.twitter.com" target="blank">
+				<img src="image/root_footer2.png">
+			</a>
+			<a href="www.instagram.com" target="blank">
+				<img src="image/root_footer3.png">
+			</a>
+		</p>
+	</div>
+</footer>
+
+<script>
+	var counter = 1;
+	setInterval(function(){
+		document.getElementById('radio' + counter).checked = true;
+		counter++;
+		if(counter > 3){
+			counter = 1;
+		}
+	}, 2000);
+</script>
+
+</html>
