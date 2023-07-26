@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #ffaf02;
+}
+
+header img{
+	width: 12%;
+	height: 12%;
+}
+
+.logo{
+	position: absolute;
+	margin: 1%;
+}
+
+header p{
+	font-family: Segoe Script;
+	font-size: 90px;
+	margin-left: 12%;
+}
+
+.home_link a{
+	text-decoration: none;
+}
+
+.home_link a img{
+	float: right;
+	width: 3.8%;
+	height: 3.8%;
+	margin-right: 3%
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #fcda91;
+}
+
+.navigation ul{
+	font-family: MV Boli;
+	padding-top: 1%;
+	padding-right: 1%;
+}
+
+.navigation ul li{
+	float: right;
+	background-color: #5af4ef;
+	font-size: 15px;
+	display: block;
+	border: 2px solid black;
+	margin-left: -30px
+}
+
+.navigation ul li a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	display: block;
+	padding: 10px;
+	width: 100px;
+}
+
+.navigation ul li, .navigation ul li a{
+	border-radius: 70px / 30px;
+}
+
+.navigation ul li a:hover{
+		background-color: #ff1e1e;
+		display: block;
+}
+
+.tab{
+	margin-top: 6%;
+	margin-left: 30%;
+}
+
+.tab > input, .tab form > div{
+	display: none;
+}
+
+#tab1:checked ~ form .tab1, #tab2:checked ~ form .tab2{
+	display: block;
+}
+
+.tab ul{
+	list-style-type: none;
+}
+
+.tab ul li label{
+	float: left;
+	padding: 15px 25px;
+	border: 2px solid black;
+	border-bottom: 0;
+	background-color: lightgray;
+}
+
+.tab ul li label:hover{
+	background-color: black;
+	color: white;
+}
+
+.tab ul li:not(:last-child) label{
+	border-right-width: 0;
+}
+
+.tab form{
+	clear: both;
+}
+
+.tab form div{
+	width: 500px;
+	background-color: white;
+	border: 2px solid gray;
+}
+
+#tab1:checked ~ nav .tab1 label, #tab2:checked ~ nav .tab2 label{
+	background-color: white;
+	position: relative;
+}
+
+table{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+table caption{
+	margin-top: 2%;
+	font-style: italic;
+	font-size: 20px;
+	color: red;
+}
+
+table tr td input{
+	margin-left: 10%;
+	padding: 5px;
+}
+
+.add tr td select{
+	margin-left: 70%;
+	padding: 5px;
+}
+
+#add{
+	margin-left: 70%;
+}
+
+.btn{
+	margin-left: 45%;
+	padding: 6px;
+}
+
+footer{
+	width: 100%;
+	margin-top: 5%;
+	bottom: 10px;
+	text-align: center;
+}
+
+footer hr{
+	width: 90%;
+	padding: 1px;
+	background-color: black;
+	margin: auto;
+}
+
+footer p{
+	font-size: 15px;
+	margin-top: 1%;
+}
+
+footer img{
+	width: 20px;
+	height: 20px;
+	padding-right: 5px;
+}
+
+footer a{
+	text-decoration: none;
+}
